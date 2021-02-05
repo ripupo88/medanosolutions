@@ -12,7 +12,6 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
     },
     imgContainer: {
-        width: 'auto',
         display: 'flex',
         justifyContent: 'left',
         alignItems: 'center',
@@ -23,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export const HomePage = () => {
     const classes = useStyles();
     // const { t, i18n } = useTranslation();
-    const { state, dispatch } = useContext(appContext);
+    const { state } = useContext(appContext);
     const { results: list } = state;
 
     return (

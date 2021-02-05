@@ -34,7 +34,7 @@ export const PokemonPage = () => {
 
     useEffect(() => {
         getPokemonInfo(pokemon).then(setStatsList);
-    }, []);
+    }, [pokemon]);
 
     if (!statsList.img) {
         return (

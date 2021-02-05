@@ -9,6 +9,7 @@ export const getPokemonInfo = async (pokemon) => {
     };
     pokemonData.stats.map((item) => {
         resp.data = [...resp.data, [item.stat.name, item.base_stat]];
+        return;
     });
 
     return resp;

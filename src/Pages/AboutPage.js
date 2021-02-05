@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
-import Search from '../Components/Search/Search';
 import { makeStyles } from '@material-ui/core/styles';
-import SelectList from '../Components/List/List';
 import { appContext } from '../Core/context/context';
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
 export const AboutPage = () => {
     const classes = useStyles();
     const { t } = useTranslation();
-    const { state, dispatch } = useContext(appContext);
 
     return (
         <>

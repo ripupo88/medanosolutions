@@ -1,7 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
-import { appContext } from '../Core/context/context';
 
 const useStyles = makeStyles((theme) => ({
     container: {

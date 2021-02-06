@@ -34,6 +34,7 @@ export const LanguagePage = () => {
                     <img
                         className={classes.img}
                         src='./assets/img/english.jpg'
+                        alt='England flag'
                     />
                 </button>
                 <button
@@ -43,6 +44,7 @@ export const LanguagePage = () => {
                     <img
                         className={classes.img}
                         src='./assets/img/spanish.jpg'
+                        alt='spain flag'
                     />
                 </button>
             </div>
